@@ -1,6 +1,11 @@
 $(document).ready(function() {
-  $("").click(function() {
+  $("#js-title").click(function() {
     $("p").hide();
-    $("#").toggle();
-  }) 
-})
+    $("#js").fadeToggle();
+  }); 
+  $("#operator").click(function() {
+    $("p").hide();
+    $("#operator-p").fadeToggle();
+  }); 
+
+});
